@@ -2,18 +2,33 @@
   <v-app>
     <v-card color="basil">
       <v-card-title class="text-center justify-center py-6">
-        <h1 class="font-weight-bold text-h2 basil--text">BASiL</h1>
+        <h1 class="font-weight-bold text-h2 basil--text">
+          Online Grocery Store
+        </h1>
       </v-card-title>
       <!-- <v-card-actions>
       </v-card-actions> -->
     </v-card>
 
-    <div id="nav" class="text-center">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/products">Products</router-link> |
-      <router-link to="/pastOrders">Past Orders</router-link>
-    </div>
-    
+    <header class="top-bar spread">
+      <!-- <nav class="top-bar-nav"> -->
+      <div id="nav" class="text-center top-bar-nav">
+        <router-link to="/" class="top-bar-link">
+          <i class="icofont-spoon-and-fork"></i>
+          <span>Home</span>
+        </router-link>
+        |
+        <router-link to="/products" class="top-bar-link">
+          <span>Products</span>
+        </router-link>
+        |
+        <router-link to="/pastOrders" class="top-bar-link">
+          <span>Past Orders</span>
+        </router-link>
+      </div>
+      <!-- </nav> -->
+    </header>
+
     <v-main>
       <router-view />
     </v-main>

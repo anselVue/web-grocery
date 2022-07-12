@@ -11,22 +11,22 @@
     </v-card>
 
     <header class="top-bar spread">
-      <!-- <nav class="top-bar-nav"> -->
-      <div id="nav" class="text-center top-bar-nav">
+      <nav id="nav" class="top-bar-nav">
+      <!-- <div id="nav" class="top-bar-nav"> -->
         <router-link to="/" class="top-bar-link">
           <i class="icofont-spoon-and-fork"></i>
           <span>Home</span>
         </router-link>
-        |
+        
         <router-link to="/products" class="top-bar-link">
           <span>Products</span>
         </router-link>
-        |
+        
         <router-link to="/pastOrders" class="top-bar-link">
           <span>Past Orders</span>
         </router-link>
-      </div>
-      <!-- </nav> -->
+      <!-- </div> -->
+      </nav>
     </header>
 
     <v-main>
@@ -50,26 +50,26 @@ export default {
 </script>
 
 <style scoped>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
+} */
 
 #nav {
-  padding: 30px;
+  padding: 10px;
 }
 
-#nav a {
+/* #nav a {
   font-weight: bold;
   color: #2c3e50;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
 /* Helper classes */
 .basil {
   background-color: #fffbe6 !important;

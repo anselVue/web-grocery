@@ -17,13 +17,10 @@
 
 <script>
 import ProductCard from '@/components/ProductCard.vue'
-import food from '../food.json'
 
 export default {
   name: 'Products',
-  data: () => ({
-      inventory: food
-  }),
+  props: ['inventory','addToCart'],
   components: {
     ProductCard
   }

@@ -18,6 +18,7 @@
           class="card"
           :index="index"
           :product="product"
+          :addToCart="addToCart"
         />
 
       </div>
@@ -29,14 +30,11 @@
 
 <script>
 import ProductCard from '@/components/ProductCard.vue'
-import food from '../food.json'
+// import food from '../food.json'
 
 export default {
   name: 'Home',
-  data: () => ({
-      inventory: food
-  }),
-  // props: ['inventory'],
+  props: ['inventory','addToCart'],
   components: {
     ProductCard
   }

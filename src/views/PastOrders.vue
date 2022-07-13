@@ -23,8 +23,8 @@
           <td><button class="btn btn-dark">Add</button></td>
         </tr>
         <tr>
-          <td><i class="icofont-banana icofont-4x" /></td>
-          <td>Banana</td>
+          <td><i class="icofont-broccoli icofont-4x" /></td>
+          <td>Broccoli</td>
           <td>$0.50</td>
           <td>10</td>
           <td>$5.00</td>
